@@ -5,7 +5,7 @@ $(document).ready(function() {
     $("#title").text("Changed Title using jQuery");
     $(".text").html("<b>Updated paragraph with bold text!</b>");
     $("div").css("color", "blue");
-  
+    
     // Task 2: Hide / Show / Toggle
     $("#hide").click(function() {
       $("#para").hide();
